@@ -1,0 +1,28 @@
+{
+  "clusters": [
+    {
+      "name": "CreateNewSales",
+      "classes": ["Sale", "SaleDao", "SalesController", "SaleInterface", "Invoice", "Payment", "Employee", "EmployeeDao", "EmployeeController", "EmployeeInterface", "EmployeeModel", "Category", "CategoryDao", "CategoryController", "CategoryInterface", "CategoryModel"]
+    },
+    {
+      "name": "GenerateAnInvoice",
+      "classes": ["Invoice", "InvoiceDao", "InvoiceController", "InvoiceModel", "Sale", "Payment", "SalesController", "SalesModel", "Item", "HibernateUtil", "AdminController", "ProductModel", "PrintInvoice", "ConfirmController", "MainApp"]
+    },
+    {
+      "name": "CreatesANewPurchase",
+      "classes": ["Purchase", "PurchaseDao", "PurchaseController", "PurchaseModel", "Sale", "SaleDao", "Product", "ProductDao", "ProductController", "ProductModel", "ProductInterface"]
+    },
+    {
+      "name": "ManageProducts",
+      "classes": ["Product", "ProductDao", "ProductController", "ProductModel", "ProductInterface", "Purchase", "PurchaseDao", "PurchaseController", "PurchaseModel", "PurchaseInterface", "Supplier", "SupplierDao", "SupplierController", "SupplierModel", "SupplierInterface", "Category", "CategoryDao", "CategoryController", "CategoryModel", "CategoryInterface", "HibernateUtil", "EditController", "PosController", "ViewController", "ReportController", "ReportInterface", "Employee", "EmployeeDao", "EmployeeController", "EmployeeInterface", "EmployeeModel"]
+    },
+    {
+      "name": "ManageSuppliers",
+      "classes": ["Supplier", "SupplierDao", "SupplierController", "SupplierModel", "SupplierInterface", "Product", "ProductDao", "ProductController", "ProductModel", "ProductInterface", "Purchase", "PurchaseDao", "PurchaseController", "PurchaseModel", "PurchaseInterface", "Category", "CategoryDao", "CategoryController", "CategoryModel", "CategoryInterface", "Employee", "EmployeeDao", "EmployeeController", "EmployeeInterface", "EmployeeModel", "AddController", "LoginController"]
+    },
+    {
+      "name": "SupplyProducts",
+      "classes": ["Product", "ProductDao", "ProductController", "ProductModel", "ProductInterface", "Purchase", "PurchaseDao", "PurchaseController", "PurchaseModel", "PurchaseInterface", "Supplier", "SupplierDao", "SupplierController", "SupplierModel", "SupplierInterface", "Category", "CategoryDao", "CategoryController", "CategoryModel", "CategoryInterface"]
+    }
+  ]
+}

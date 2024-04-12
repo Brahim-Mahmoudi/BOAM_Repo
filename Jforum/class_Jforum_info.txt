@@ -1,0 +1,1008 @@
+Class: SessionManagerTestCase
+Package: net.jforum.core
+----
+Class: TopicWatchDAOTestCase
+Package: net.jforum.core.hibernate
+----
+Class: PostReportDAOTestCase
+Package: net.jforum.core.hibernate
+----
+Class: BadWordDAOTestCase
+Package: net.jforum.core.hibernate
+----
+Class: BanlistDAOTestCase
+Package: net.jforum.core.hibernate
+----
+Class: SmilieDAOTestCase
+Package: net.jforum.core.hibernate
+----
+Class: UserDAOTestCase
+Package: net.jforum.core.hibernate
+----
+Class: ForumDAOTestCase
+Package: net.jforum.core.hibernate
+----
+Class: PrivateMessageDAOTestCase
+Package: net.jforum.core.hibernate
+----
+Class: TopicDAOTestCase
+Package: net.jforum.core.hibernate
+----
+Class: RankingDAOTestCase
+Package: net.jforum.core.hibernate
+----
+Class: PostDAOTestCase
+Package: net.jforum.core.hibernate
+----
+Class: GroupDAOTestCase
+Package: net.jforum.core.hibernate
+----
+Class: RecentTopicsDAOTestCase
+Package: net.jforum.core.hibernate
+----
+Class: RSSDAOTestCase
+Package: net.jforum.core.hibernate
+----
+Class: SessionDAOTestCase
+Package: net.jforum.core.hibernate
+----
+Class: ConfigDAOTestCase
+Package: net.jforum.core.hibernate
+----
+Class: CategoryDAOTestCase
+Package: net.jforum.core.hibernate
+----
+Class: AvatarDAOTestCase
+Package: net.jforum.core.hibernate
+----
+Class: EmptyCache
+Package: net.jforum.core.hibernate.tests
+----
+Class: EmptyCacheProvider
+Package: net.jforum.core.hibernate.tests
+----
+Class: CacheEvictionRulesTestCase
+Package: net.jforum.core.support.hibernate
+----
+Class: BadWordEventTestCase
+Package: net.jforum.core.events.post
+----
+Class: ForumPostEventTestCase
+Package: net.jforum.core.events.post
+----
+Class: TopicPostEventTestCase
+Package: net.jforum.core.events.post
+----
+Class: TopicWatchPostEventTestCase
+Package: net.jforum.core.events.post
+----
+Class: NewCategoryGroupPermissionsEventTestCase
+Package: net.jforum.core.events.category
+----
+Class: ForumTopicEventTestCase
+Package: net.jforum.core.events.topic
+----
+Class: TopicWatchTopicEventTestCase
+Package: net.jforum.core.events.topic
+----
+Class: NewForumGroupPermissionsEventTestCase
+Package: net.jforum.core.events.forum
+----
+Class: TestCaseUtils
+Package: net.jforum.util
+----
+Class: GroupInteractionFilterTestCase
+Package: net.jforum.util
+----
+Class: JDBCLoader
+Package: net.jforum.util
+----
+Class: SafeHtmlTestCase
+Package: net.jforum.util
+----
+Class: I18nTestCase
+Package: net.jforum.util
+----
+Class: TopicReplySpammerTestCase
+Package: net.jforum.util.mail
+----
+Class: LostPasswordSpammerTestCase
+Package: net.jforum.util.mail
+----
+Class: ModerationRuleTestCase
+Package: net.jforum.security
+----
+Class: RoleManagerTestCase
+Package: net.jforum.security
+----
+Class: EditUserRuleTestCase
+Package: net.jforum.security
+----
+Class: AdministrationRuleTestCase
+Package: net.jforum.security
+----
+Class: PrivateMessageOwnerRuleTestCase
+Package: net.jforum.security
+----
+Class: CreateNewTopicRuleTestCase
+Package: net.jforum.security
+----
+Class: PrivateMessageEnabledRuleTestCase
+Package: net.jforum.security
+----
+Class: AuthenticatedRuleTestCase
+Package: net.jforum.security
+----
+Class: AccessForumRuleTestCase
+Package: net.jforum.security
+----
+Class: ReplyTopicRuleTestCase
+Package: net.jforum.security
+----
+Class: ChangePostRuleTestCase
+Package: net.jforum.security
+----
+Class: FourmLimitedTimeDAOTestCase
+Package: net.jforum.plugins.post
+----
+Class: ForumAdminTestCase
+Package: net.jforum.plugins.post
+----
+Class: PostReportCounterOperationTestCase
+Package: net.jforum.extensions
+----
+Class: DefaultLoginAuthenticatorTestCase
+Package: net.jforum.sso
+----
+Class: RemoteUserSSOTestCase
+Package: net.jforum.sso
+----
+Class: TopicWatchExtensionTestCase
+Package: net.jforum.actions.extensions
+----
+Class: PaginationTestCase
+Package: net.jforum.actions.helpers
+----
+Class: GroupAdminControllerTestCase
+Package: net.jforum.controllers
+----
+Class: SearchControllerTestCase
+Package: net.jforum.controllers
+----
+Class: SmilieAdminControllerTestCase
+Package: net.jforum.controllers
+----
+Class: ModerationControllerTestCase
+Package: net.jforum.controllers
+----
+Class: TopicControllerTestCase
+Package: net.jforum.controllers
+----
+Class: BanlistAdminControllerTestCase
+Package: net.jforum.controllers
+----
+Class: PrivateMessageControllerTestCase
+Package: net.jforum.controllers
+----
+Class: AdminControllerTestCase
+Package: net.jforum.controllers
+----
+Class: BadWordControllerActionsTestCase
+Package: net.jforum.controllers
+----
+Class: RSSControllerTestCase
+Package: net.jforum.controllers
+----
+Class: MessageControllerTestCase
+Package: net.jforum.controllers
+----
+Class: ForumControllerTestCase
+Package: net.jforum.controllers
+----
+Class: CategoryAdminControllerTestCase
+Package: net.jforum.controllers
+----
+Class: AvatarAdminControllerTestCase
+Package: net.jforum.controllers
+----
+Class: UserAdminControllerTestCase
+Package: net.jforum.controllers
+----
+Class: PostControllerTestCase
+Package: net.jforum.controllers
+----
+Class: PostReportControllerTestCase
+Package: net.jforum.controllers
+----
+Class: RankingAdminControllerTestCase
+Package: net.jforum.controllers
+----
+Class: UserControllerTestCase
+Package: net.jforum.controllers
+----
+Class: ForumAdminControllerTestCase
+Package: net.jforum.controllers
+----
+Class: RecentTopicsControllerTestCase
+Package: net.jforum.controllers
+----
+Class: TopicServiceTestCase
+Package: net.jforum.services
+----
+Class: RankingServiceTestCase
+Package: net.jforum.services
+----
+Class: TopicWatchServiceTestCase
+Package: net.jforum.services
+----
+Class: RSSServiceTestCase
+Package: net.jforum.services
+----
+Class: PrivateMessageServiceTestCase
+Package: net.jforum.services
+----
+Class: ModerationServiceTestCase
+Package: net.jforum.services
+----
+Class: CategoryServiceTestCase
+Package: net.jforum.services
+----
+Class: PollServiceTestCase
+Package: net.jforum.services
+----
+Class: UserServiceTestCase
+Package: net.jforum.services
+----
+Class: AvatarServiceTestCase
+Package: net.jforum.services
+----
+Class: MostUsersEverOnlineServiceTestCase
+Package: net.jforum.services
+----
+Class: SmilieServiceTestCase
+Package: net.jforum.services
+----
+Class: PostServiceTestCase
+Package: net.jforum.services
+----
+Class: GroupServiceTestCase
+Package: net.jforum.services
+----
+Class: ForumServiceTestCase
+Package: net.jforum.services
+----
+Class: AutoEmail_TestCase
+Package: net.jforum.bbcode
+----
+Class: U_TestCase
+Package: net.jforum.bbcode
+----
+Class: Google_TestCase
+Package: net.jforum.bbcode
+----
+Class: IMG_TestCase
+Package: net.jforum.bbcode
+----
+Class: HtmlEntitiesFormatterTestCase
+Package: net.jforum.bbcode
+----
+Class: Size_TestCase
+Package: net.jforum.bbcode
+----
+Class: I_TestCase
+Package: net.jforum.bbcode
+----
+Class: BBCodeConfigParserTestCase
+Package: net.jforum.bbcode
+----
+Class: NewLineToHtmBreakFormatterTestCase
+Package: net.jforum.bbcode
+----
+Class: SimpleUrl_TestCase
+Package: net.jforum.bbcode
+----
+Class: DescriptiveUrl_TestCase
+Package: net.jforum.bbcode
+----
+Class: YouTube_TestCase
+Package: net.jforum.bbcode
+----
+Class: SmiliesFormatterTestCase
+Package: net.jforum.bbcode
+----
+Class: B_TestCase
+Package: net.jforum.bbcode
+----
+Class: Color_TestCase
+Package: net.jforum.bbcode
+----
+Class: GroupTestCase
+Package: net.jforum.entities
+----
+Class: TopicTestCase
+Package: net.jforum.entities
+----
+Class: ForumTestCase
+Package: net.jforum.entities
+----
+Class: SearchParamsTest
+Package: net.jforum.entities
+----
+Class: UserSessionTestCase
+Package: net.jforum.entities
+----
+Class: ModerationLogRepository
+Package: net.jforum.repository
+----
+Class: ForumRepository
+Package: net.jforum.repository
+----
+Class: ThemeRepository
+Package: net.jforum.repository
+----
+Class: BadWordRepository
+Package: net.jforum.repository
+----
+Class: RankingRepository
+Package: net.jforum.repository
+----
+Class: AttachmentRepository
+Package: net.jforum.repository
+----
+Class: PostReportRepository
+Package: net.jforum.repository
+----
+Class: ConfigRepository
+Package: net.jforum.repository
+----
+Class: RSSRepository
+Package: net.jforum.repository
+----
+Class: TopicWatchRepository
+Package: net.jforum.repository
+----
+Class: HibernateGenericDAO<T>
+Package: net.jforum.repository
+----
+Class: PostRepository
+Package: net.jforum.repository
+----
+Class: Repository<T>
+Package: net.jforum.repository
+----
+Class: CategoryRepository
+Package: net.jforum.repository
+----
+Class: TopicRepository
+Package: net.jforum.repository
+----
+Class: PrivateMessageRepository
+Package: net.jforum.repository
+----
+Class: SearchRepository
+Package: net.jforum.repository
+----
+Class: AvatarRepository
+Package: net.jforum.repository
+----
+Class: GroupRepository
+Package: net.jforum.repository
+----
+Class: UserRepository
+Package: net.jforum.repository
+----
+Class: SessionRepository
+Package: net.jforum.repository
+----
+Class: PollRepository
+Package: net.jforum.repository
+----
+Class: SmilieRepository
+Package: net.jforum.repository
+----
+Class: BanlistRepository
+Package: net.jforum.repository
+----
+Class: RecentTopicsRepository
+Package: net.jforum.repository
+----
+Class: VRaptorCustomPathResolver
+Package: net.jforum.core
+----
+Class: PageExtensionRedirectFilter
+Package: net.jforum.core
+----
+Class: VRaptorSpringProvider
+Package: net.jforum.core
+----
+Class: SessionManager
+Package: net.jforum.core
+----
+Class: UserSessionListener
+Package: net.jforum.core
+----
+Class: UrlPattern
+Package: net.jforum.core
+----
+Class: ValidationException
+Package: net.jforum.core.exceptions
+----
+Class: DatabaseException
+Package: net.jforum.core.exceptions
+----
+Class: AccessRuleException
+Package: net.jforum.core.exceptions
+----
+Class: MailException
+Package: net.jforum.core.exceptions
+----
+Class: ForumException
+Package: net.jforum.core.exceptions
+----
+Class: I18nTag
+Package: net.jforum.core.tags
+----
+Class: URLTag
+Package: net.jforum.core.tags
+----
+Class: DisplayFormattedMessageTag
+Package: net.jforum.core.tags
+----
+Class: ImportResponseWrapper
+Package: net.jforum.core.tags
+----
+Class: Functions
+Package: net.jforum.core.tags
+----
+Class: TemplateResourceTag
+Package: net.jforum.core.tags
+----
+Class: FormatSignatureTag
+Package: net.jforum.core.tags
+----
+Class: SettingsTag
+Package: net.jforum.core.tags
+----
+Class: DisplayCategoriesTag
+Package: net.jforum.core.tags
+----
+Class: DisplayForumsTag
+Package: net.jforum.core.tags
+----
+Class: SpringSessionFactory
+Package: net.jforum.core.support.hibernate
+----
+Class: QueryCache
+Package: net.jforum.core.support.hibernate
+----
+Class: SpringInterceptor
+Package: net.jforum.core.support.hibernate
+----
+Class: SessionFactoryCreator
+Package: net.jforum.core.support.hibernate
+----
+Class: CacheEvictionRules
+Package: net.jforum.core.support.hibernate
+----
+Class: QueryCacheFactory
+Package: net.jforum.core.support.hibernate
+----
+Class: RoleManagerFactoryBean
+Package: net.jforum.core.support.spring
+----
+Class: HttpServletRequestFactoryBean
+Package: net.jforum.core.support.spring
+----
+Class: HttpServletResponseFactoryBean
+Package: net.jforum.core.support.spring
+----
+Class: ForumPostEvent
+Package: net.jforum.core.events.post
+----
+Class: TopicReplyEvent
+Package: net.jforum.core.events.post
+----
+Class: BadWordEvent
+Package: net.jforum.core.events.post
+----
+Class: TopicWatchPostEvent
+Package: net.jforum.core.events.post
+----
+Class: TopicPostEvent
+Package: net.jforum.core.events.post
+----
+Class: NewCategoryGroupPermissionsEvent
+Package: net.jforum.core.events.category
+----
+Class: TopicWatchTopicEvent
+Package: net.jforum.core.events.topic
+----
+Class: ForumTopicEvent
+Package: net.jforum.core.events.topic
+----
+Class: NewForumGroupPermissionsEvent
+Package: net.jforum.core.events.forum
+----
+Class: MD5
+Package: net.jforum.util
+----
+Class: SafeHtml
+Package: net.jforum.util
+----
+Class: ConfigKeys
+Package: net.jforum.util
+----
+Class: JForumConfig
+Package: net.jforum.util
+----
+Class: ImageUtils
+Package: net.jforum.util
+----
+Class: ImageInfo
+Package: net.jforum.util
+----
+Class: CategoryOrderComparator
+Package: net.jforum.util
+----
+Class: I18n
+Package: net.jforum.util
+----
+Class: URLBuilder
+Package: net.jforum.util
+----
+Class: UploadUtils
+Package: net.jforum.util
+----
+Class: GroupInteractionFilter
+Package: net.jforum.util
+----
+Class: SecurityConstants
+Package: net.jforum.util
+----
+Class: TopicReplySpammer
+Package: net.jforum.util.mail
+----
+Class: SpammerFactory
+Package: net.jforum.util.mail
+----
+Class: ActivationKeySpammer
+Package: net.jforum.util.mail
+----
+Class: SpammerTaskExecutor
+Package: net.jforum.util.mail
+----
+Class: EmailSenderTask
+Package: net.jforum.util.mail
+----
+Class: MessageId
+Package: net.jforum.util.mail
+----
+Class: LostPasswordSpammer
+Package: net.jforum.util.mail
+----
+Class: IdentifiableMimeMessage
+Package: net.jforum.util.mail
+----
+Class: PrivateMessageSpammer
+Package: net.jforum.util.mail
+----
+Class: AccessForumRule
+Package: net.jforum.security
+----
+Class: DownloadAttachmentRule
+Package: net.jforum.security
+----
+Class: AdministrationRule
+Package: net.jforum.security
+----
+Class: CreateNewTopicRule
+Package: net.jforum.security
+----
+Class: ChangePostRule
+Package: net.jforum.security
+----
+Class: AuthenticatedRule
+Package: net.jforum.security
+----
+Class: ModerationRule
+Package: net.jforum.security
+----
+Class: AccessRule
+Package: net.jforum.security
+----
+Class: EmptyRule
+Package: net.jforum.security
+----
+Class: PrivateMessageEnabledRule
+Package: net.jforum.security
+----
+Class: PrivateMessageOwnerRule
+Package: net.jforum.security
+----
+Class: TopicFilter
+Package: net.jforum.security
+----
+Class: ReplyTopicRule
+Package: net.jforum.security
+----
+Class: EditUserRule
+Package: net.jforum.security
+----
+Class: RoleManager
+Package: net.jforum.security
+----
+Class: ForumLimitedTimeRepository
+Package: net.jforum.plugins.post
+----
+Class: ForumAdminExtension
+Package: net.jforum.plugins.post
+----
+Class: PostEditInterceptor
+Package: net.jforum.plugins.post
+----
+Class: ForumLimitedTime
+Package: net.jforum.plugins.post
+----
+Class: SafeHtmlAttributesFormatter
+Package: net.jforum.formatters
+----
+Class: BBConfigFormatter
+Package: net.jforum.formatters
+----
+Class: PostFormatters
+Package: net.jforum.formatters
+----
+Class: HtmlEntitiesFormatter
+Package: net.jforum.formatters
+----
+Class: SmiliesFormatter
+Package: net.jforum.formatters
+----
+Class: PostOptions
+Package: net.jforum.formatters
+----
+Class: Formatter
+Package: net.jforum.formatters
+----
+Class: BBCodeConfigParser
+Package: net.jforum.formatters
+----
+Class: SafeHtmlTagsFormatter
+Package: net.jforum.formatters
+----
+Class: NewLineToHtmlBreakFormatter
+Package: net.jforum.formatters
+----
+Class: BBCode
+Package: net.jforum.formatters
+----
+Class: RequestOperationChain
+Package: net.jforum.extensions
+----
+Class: PostReportCounterOperation
+Package: net.jforum.extensions
+----
+Class: ActionExtensionManager
+Package: net.jforum.extensions
+----
+Class: RequestOperation
+Package: net.jforum.extensions
+----
+Class: DefaultLoginAuthenticator
+Package: net.jforum.sso
+----
+Class: SSOUtils
+Package: net.jforum.sso
+----
+Class: LoginAuthenticator
+Package: net.jforum.sso
+----
+Class: SSO
+Package: net.jforum.sso
+----
+Class: RemoteUserSSO
+Package: net.jforum.sso
+----
+Class: ControllerSecurityInterceptor
+Package: net.jforum.actions.interceptors
+----
+Class: MethodSecurityInterceptor
+Package: net.jforum.actions.interceptors
+----
+Class: ExtendsAnnotationInterceptor
+Package: net.jforum.actions.interceptors
+----
+Class: SessionManagerInterceptor
+Package: net.jforum.actions.interceptors
+----
+Class: TopicWatchExtension
+Package: net.jforum.actions.extensions
+----
+Class: Actions
+Package: net.jforum.actions.helpers
+----
+Class: PostFormOptions
+Package: net.jforum.actions.helpers
+----
+Class: ActionUtils
+Package: net.jforum.actions.helpers
+----
+Class: ApproveInfo
+Package: net.jforum.actions.helpers
+----
+Class: AttachedFile
+Package: net.jforum.actions.helpers
+----
+Class: Domain{
+Package: net.jforum.actions.helpers
+----
+Class: EmptyCategoryEvent
+Package: net.jforum.events
+----
+Class: EmptyForumEvent
+Package: net.jforum.events
+----
+Class: Event<T>
+Package: net.jforum.events
+----
+Class: EmptyPostEvent
+Package: net.jforum.events
+----
+Class: EmptyTopicEvent
+Package: net.jforum.events
+----
+Class: ForumEventListener
+Package: net.jforum.events.listeners
+----
+Class: PostEventListener
+Package: net.jforum.events.listeners
+----
+Class: CategoryEventListener
+Package: net.jforum.events.listeners
+----
+Class: TopicEventListener
+Package: net.jforum.events.listeners
+----
+Class: RankingAdminController
+Package: net.jforum.controllers
+----
+Class: AdminController
+Package: net.jforum.controllers
+----
+Class: ThemeController
+Package: net.jforum.controllers
+----
+Class: BadWordAdminController
+Package: net.jforum.controllers
+----
+Class: ForumController
+Package: net.jforum.controllers
+----
+Class: RSSController
+Package: net.jforum.controllers
+----
+Class: PostReportController
+Package: net.jforum.controllers
+----
+Class: BanlistAdminController
+Package: net.jforum.controllers
+----
+Class: ConfigController
+Package: net.jforum.controllers
+----
+Class: HibernateStatisticsController
+Package: net.jforum.controllers
+----
+Class: MessageController
+Package: net.jforum.controllers
+----
+Class: PrivateMessageController
+Package: net.jforum.controllers
+----
+Class: ForumAdminController
+Package: net.jforum.controllers
+----
+Class: TopicController
+Package: net.jforum.controllers
+----
+Class: GroupAdminController
+Package: net.jforum.controllers
+----
+Class: SearchController
+Package: net.jforum.controllers
+----
+Class: ModerationController
+Package: net.jforum.controllers
+----
+Class: SmilieAdminController
+Package: net.jforum.controllers
+----
+Class: UserAdminController
+Package: net.jforum.controllers
+----
+Class: AvatarAdminController
+Package: net.jforum.controllers
+----
+Class: PostController
+Package: net.jforum.controllers
+----
+Class: CategoryAdminController
+Package: net.jforum.controllers
+----
+Class: RecentTopicsController
+Package: net.jforum.controllers
+----
+Class: LuceneAdminController
+Package: net.jforum.controllers
+----
+Class: UserController
+Package: net.jforum.controllers
+----
+Class: PollService
+Package: net.jforum.services
+----
+Class: UserService
+Package: net.jforum.services
+----
+Class: LostPasswordService
+Package: net.jforum.services
+----
+Class: MostUsersEverOnlineService
+Package: net.jforum.services
+----
+Class: RSSService
+Package: net.jforum.services
+----
+Class: AvatarService
+Package: net.jforum.services
+----
+Class: ModerationService
+Package: net.jforum.services
+----
+Class: AttachmentService
+Package: net.jforum.services
+----
+Class: MessageFormatService
+Package: net.jforum.services
+----
+Class: TopicService
+Package: net.jforum.services
+----
+Class: GroupService
+Package: net.jforum.services
+----
+Class: RankingService
+Package: net.jforum.services
+----
+Class: PrivateMessageService
+Package: net.jforum.services
+----
+Class: TopicWatchService
+Package: net.jforum.services
+----
+Class: ConfigService
+Package: net.jforum.services
+----
+Class: ForumService
+Package: net.jforum.services
+----
+Class: ModerationLogService
+Package: net.jforum.services
+----
+Class: CategoryService
+Package: net.jforum.services
+----
+Class: SmilieService
+Package: net.jforum.services
+----
+Class: PostService
+Package: net.jforum.services
+----
+Class: MostUsersEverOnline
+Package: net.jforum.entities
+----
+Class: Post
+Package: net.jforum.entities
+----
+Class: Poll
+Package: net.jforum.entities
+----
+Class: Group
+Package: net.jforum.entities
+----
+Class: BadWord
+Package: net.jforum.entities
+----
+Class: Avatar
+Package: net.jforum.entities
+----
+Class: UserSession
+Package: net.jforum.entities
+----
+Class: ModerationLogType
+Package: net.jforum.entities
+----
+Class: Category
+Package: net.jforum.entities
+----
+Class: PollVoter
+Package: net.jforum.entities
+----
+Class: User
+Package: net.jforum.entities
+----
+Class: Forum
+Package: net.jforum.entities
+----
+Class: Ranking
+Package: net.jforum.entities
+----
+Class: Banlist
+Package: net.jforum.entities
+----
+Class: ForumWatch
+Package: net.jforum.entities
+----
+Class: PostReport
+Package: net.jforum.entities
+----
+Class: ModerationLog
+Package: net.jforum.entities
+----
+Class: Config
+Package: net.jforum.entities
+----
+Class: AttachmentExtension
+Package: net.jforum.entities
+----
+Class: Attachment
+Package: net.jforum.entities
+----
+Class: AttachmentQuota
+Package: net.jforum.entities
+----
+Class: Topic
+Package: net.jforum.entities
+----
+Class: PollOption
+Package: net.jforum.entities
+----
+Class: Role
+Package: net.jforum.entities
+----
+Class: AttachmentExtensionGroup
+Package: net.jforum.entities
+----
+Class: Theme
+Package: net.jforum.entities
+----
+Class: Session
+Package: net.jforum.entities
+----
+Class: Smilie
+Package: net.jforum.entities
+----
+Class: TopicWatch
+Package: net.jforum.entities
+----
+Class: PrivateMessage
+Package: net.jforum.entities
+----
+Class: ForumStats
+Package: net.jforum.entities
+----
+Class: PrivateMessageType
+Package: net.jforum.entities
+----
+Class: PaginatedResult<T>
+Package: net.jforum.entities.util
+----
+Class: Pagination
+Package: net.jforum.entities.util
+----
+Class: SearchParams
+Package: net.jforum.entities.util
+----
+Class: SearchResult
+Package: net.jforum.entities.util
+----

@@ -1,0 +1,40 @@
+{ 
+"useCases": 
+	[
+		{	
+			"name":"UpdatePetMedicalDetail",
+			"nanoentitiesRead": ["Pet.birthDate","Pet.type","Pet.owner","Pet.visits","NamedEntity.name"],
+			"nanoentitiesWritten":["Pet.owner","Pet.visits","NamedEntity.name"]
+		},
+		{	
+			"name":"ViewPetMedicalHistory",
+			"nanoentitiesRead": ["Owner.pets","Owner.telephone","Owner.city","Owner.address","Pet.birthDate","Pet.type","Pet.visits"],
+			"nanoentitiesWritten":[]
+		},
+		{	
+			"name":"ViewAVetSchedule",
+			"nanoentitiesRead": ["Vet.firstName","Vet.lastName","Vet.specialties","Visit.date","Visit.description","Visit.pet","NamedEntity.name"],
+			"nanoentitiesWritten":[]
+		},
+		{	
+			"name":"ManageVetAccount",
+			"nanoentitiesRead": ["Person.firstName","Person.lastName","Vet.specialties"],
+			"nanoentitiesWritten":["Person.firstName","Person.lastName","Vet.specialties"]
+		},
+		{	
+			"name":"ManageOwnerAccount",
+			"nanoentitiesRead": ["Person.firstName","Person.lastName","Owner.pets","Owner.telephone","Owner.city","Owner.address"],
+			"nanoentitiesWritten":["Person.firstName","Person.lastName","Owner.pets","Owner.telephone","Owner.city","Owner.address"]
+		},
+		{	
+			"name":"ManageVetSchedule",
+			"nanoentitiesRead": ["Visit.date","Visit.description","Visit.pet","Vet.specialties"],
+			"nanoentitiesWritten":["Visit.date","Visit.description","Visit.pet"]
+		},
+		{	
+			"name":"ManagePetBasicInformations",
+			"nanoentitiesRead": ["Pet.birthDate","Pet.type","Pet.owner","Pet.visits","NamedEntity.name"],
+			"nanoentitiesWritten":["Pet.type","Pet.owner","Pet.visits"]
+		}
+	]
+}

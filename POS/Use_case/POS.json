@@ -1,0 +1,119 @@
+{
+  "useCases": [
+    {
+      "name": "ApplyDiscount",
+      "nanoentitiesRead": [
+        "Puchase.id",
+        "Product.id"
+      ],
+      "nanoentitiesWritten": [
+        "Payment.discount",
+        "Payment.subTotal",
+        "Payment.vat",
+        "Payment.payable",
+        "Invoice.discount",
+        "Invoice.total",
+        "Invoice.vat",
+        "Invoice.date",
+        "Invoice.paid"
+      ]
+    },
+    
+    {
+      "name": "ManageProductsInventory",
+      "nanoentitiesRead": [
+        "Sale.id",
+        "Item.itemName",
+        "Product.id",
+        "Purchase.id",
+        "Supplier.id"
+      ],
+      "nanoentitiesWritten": [
+        "Product.description",
+        "Product.category",
+        "Product.quantity",
+        "Product.price",
+        "Product.supplier",
+        "Item.unitPrice",
+        "Item.quantity",
+        "Category.description",
+        "Category.type",
+        "Purchase.total",
+        "Purchase.quantity",
+        "Purchase.price",
+        "Purchase.date",
+        "Sale.product",
+        "Sale.invoice",
+        "Sale.total",
+        "Sale.quantity",
+        "Sale.price",
+        "Sale.date"
+      ]
+    },
+    {
+      "name": "ManageSuppliers",
+      "nanoentitiesRead": [
+        "Product.id",
+        "Purchase.id",
+        "Supplier.name",
+        "Supplier.id",
+        "Supplier.address",
+        "Supplier.phone",
+        "Sale.id"
+      ],
+      "nanoentitiesWritten": [
+        "Supplier.address",
+        "Supplier.phone",
+        "Product.quantity",
+        "Product.price",
+        "Category.description",
+        "Category.type"
+      ]
+    },
+    {
+      "name": "ManagePurchase",
+      "nanoentitiesRead": [
+        "Product.id",
+        "Purchase.id",
+        "Supplier.id",
+        "Item.itemName",
+        "Category.id"
+      ],
+      "nanoentitiesWritten": [
+        "Product.description",
+        "Product.category",
+        "Product.quantity",
+        "Product.price",
+        "Product.supplier",
+        "Item.unitPrice",
+        "Item.quantity",
+        "Category.description",
+        "Category.type",
+        "Purchase.total",
+        "Purchase.quantity",
+        "Purchase.price",
+        "Purchase.date",
+        "Supplier.address",
+        "Supplier.phone"
+      ]
+    },
+    {
+      "name": "ManageReturns",
+      "nanoentitiesRead": [
+        "Invoice.id",
+        "Purchase.id",
+        "Product.id",
+        "Payment.payable"
+      ],
+      "nanoentitiesWritten": [
+        "Invoice.returned",
+        "Purchase.date",
+        "Purchase.total",
+        "Purchase.price",
+        "Item.quantity",
+        "Payment.subTotal",
+        "Payment.payable"
+      ]
+    }
+  ]
+}

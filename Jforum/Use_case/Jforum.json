@@ -1,0 +1,104 @@
+{
+  "useCases": [
+    {
+      "name": "GrantPermission",
+      "nanoentitiesRead": ["User.id","Role.id"],
+      "nanoentitiesWritten": ["Role.name","Role.roleValues"]
+    },
+    {
+      "name": "GenerateForumStats",
+      "nanoentitiesRead": ["Forum.id"],
+      "nanoentitiesWritten": ["ForumStats.topicPerDay","ForumStats.topics","ForumStats.posts","ForumStats.posts","ForumStats.totalUsers","ForumStats.usersPerDay","ForumStats.postsPerDay","ForumStats.totalTopics"]
+    },
+    {
+      "name": "RankUser",
+      "nanoentitiesRead": ["User.id","Ranking.id"],
+      "nanoentitiesWritten": ["Ranking.special","Ranking.title","Ranking.min","User.ranking"]
+    },
+    {
+      "name": "JoinGroup",
+      "nanoentitiesRead": ["User.id","Group.id"],
+      "nanoentitiesWritten": ["User.groups","Group.users"]
+    },
+    {
+      "name": "CreateAPost",
+      "nanoentitiesRead": [],
+      "nanoentitiesWritten": ["Post.id", "Post.date", "Post.text", "Post.subject", "Post.userIp", "Post.hasAttachments", "Post.moderate", "Post.editCount", "Post.editDate", "Post.topic", "Post.forum", "Post.user", "Post.notifyReplies"]
+    },
+    {
+      "name": "ReplyToAPost",
+      "nanoentitiesRead": ["Post.id", "Post.date", "Post.text", "Post.subject", "Post.userIp", "Post.hasAttachments", "Post.moderate", "Post.editCount", "Post.editDate", "Post.topic", "Post.forum", "Post.user"],
+      "nanoentitiesWritten": ["Post.date", "Post.text", "Post.subject", "Post.userIp", "Post.hasAttachments", "Post.moderate", "Post.editCount", "Post.editDate", "Post.topic", "Post.forum", "Post.user", "Post.notifyReplies"]
+    },
+    {
+      "name": "CreateASubject",
+      "nanoentitiesRead": [],
+      "nanoentitiesWritten": ["Topic.id", "Topic.totalViews", "Topic.totalReplies", "Topic.status", "Topic.type", "Topic.hasAttachment", "Topic.paginate", "Topic.subject", "Topic.date", "Topic.user", "Topic.firstPost", "Topic.lastPost", "Topic.poll", "Topic.pollId", "Topic.pendingModeration", "Topic.movedId", "Topic.repository"]
+    },
+    {
+      "name": "ModifyAUserProfile",
+      "nanoentitiesRead": ["User.id", "User.totalPosts", "User.ranking", "User.notifyAlways", "User.notifyText", "User.username", "User.password", "User.lastVisit", "User.registrationDate", "User.avatar", "User.email", "User.website", "User.from", "User.signature", "User.aim", "User.yim", "User.msn", "User.occupation", "User.interests", "User.biography", "User.gender", "User.timezone", "User.lang", "User.dateFormat", "User.activationKey", "User.isDeleted", "User.firstName", "User.lastName", "User.securityHash", "User.userRepository"],
+      "nanoentitiesWritten": ["User.username", "User.password", "User.avatar", "User.email", "User.website", "User.occupation", "User.interests", "User.biography"]
+    },
+    {
+      "name": "CreateAPoll",
+      "nanoentitiesRead": [],
+      "nanoentitiesWritten": ["Poll.id", "Poll.label", "Poll.startDate", "Poll.length", "Topic.poll", "Topic.pollId"]
+    },
+    {
+      "name": "CreateACategory",
+      "nanoentitiesRead": [],
+      "nanoentitiesWritten": ["Category.id", "Category.displayOrder", "Category.moderated", "Category.name", "Category.theme", "Category.repository"]
+    },
+    {
+      "name": "VoteInAPoll",
+      "nanoentitiesRead": ["Poll.id", "Poll.label", "Poll.startDate", "Poll.length", "PollOption.id", "PollOption.text", "PollOption.voteCount", "PollOption.poll"],
+      "nanoentitiesWritten": ["PollOption.voteCount", "PollVoter.poll", "PollVoter.user", "PollVoter.ip"]
+    },
+    {
+      "name": "CreateAForum",
+      "nanoentitiesRead": ["Category.id"],
+      "nanoentitiesWritten": ["Forum.id", "Forum.category", "Forum.name", "Forum.description", "Forum.displayOrder", "Forum.moderated", "Forum.lastPost", "Forum.allowAnonymousPosts", "Forum.unread", "Forum.repository"]
+    },
+    {
+      "name": "AddAnAvatar",
+      "nanoentitiesRead": ["User.id"],
+      "nanoentitiesWritten": ["User.avatar", "Avatar.id", "Avatar.fileName", "Avatar.width", "Avatar.height"]
+    },
+    {
+      "name": "ReportAPost",
+      "nanoentitiesRead": ["Post.id", "Post.date", "Post.text", "Post.subject", "Post.userIp", "Post.hasAttachments", "Post.moderate", "Post.editCount", "Post.editDate", "Post.topic", "Post.forum", "Post.user", "Post.notifyReplies"],
+      "nanoentitiesWritten": ["PostReport.id", "PostReport.post", "PostReport.date", "PostReport.description", "PostReport.user"]
+    },
+    {
+      "name": "SendAPrivateMessage",
+      "nanoentitiesRead": ["User.id"],
+      "nanoentitiesWritten": ["PrivateMessage.id", "PrivateMessage.type", "PrivateMessage.fromUser", "PrivateMessage.toUser", "PrivateMessage.date", "PrivateMessage.text", "PrivateMessage.subject", "PrivateMessage.ip"]
+    },
+    {
+      "name": "AddABannedWord",
+      "nanoentitiesRead": [],
+      "nanoentitiesWritten": ["BadWord.id", "BadWord.word", "BadWord.replacement"]
+    },
+    {
+      "name": "AddUserToGroup",
+      "nanoentitiesRead": ["User.id"],
+      "nanoentitiesWritten": ["Group.id", "Role.id", "Role.name", "Role.group"]
+    },
+    {
+      "name": "ModifyAPoll",
+      "nanoentitiesRead": ["Poll.id", "Poll.label", "Poll.startDate", "Poll.length", "PollOption.id", "PollOption.text", "PollOption.voteCount", "PollOption.poll"],
+      "nanoentitiesWritten": ["Poll.label", "Poll.startDate", "Poll.length", "PollOption.text"]
+    },
+    {
+      "name": "FollowAForum",
+      "nanoentitiesRead": ["Forum.id", "Forum.category", "Forum.name", "Forum.description", "Forum.displayOrder", "Forum.moderated", "Forum.lastPost", "Forum.allowAnonymousPosts", "Forum.unread", "Forum.repository"],
+      "nanoentitiesWritten": ["ForumWatch.id", "ForumWatch.forumId", "ForumWatch.userId"]
+    },
+    {
+      "name": "FollowATopic",
+      "nanoentitiesRead": ["Topic.id", "Topic.totalViews", "Topic.totalReplies", "Topic.status", "Topic.type", "Topic.hasAttachment", "Topic.paginate", "Topic.subject", "Topic.date", "Topic.user", "Topic.firstPost", "Topic.lastPost", "Topic.poll", "Topic.pollId", "Topic.pendingModeration", "Topic.movedId", "Topic.repository"],
+      "nanoentitiesWritten": ["TopicWatch.id", "TopicWatch.topic", "TopicWatch.user", "TopicWatch.read"]
+    }
+  ]
+}

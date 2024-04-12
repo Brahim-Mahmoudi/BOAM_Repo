@@ -1,0 +1,42 @@
+```json
+{
+  "groundTruthMsUsesCases3": [
+    {
+      "name": "RealtimeCargoTrackingViewAdapter",
+      "classes": ["RealtimeCargoTrackingViewAdapter", "RealtimeCargoTrackingService", "LocationViewAdapter", "Location", "TrackingEvents", "CargoStatus", "Unlocode", "Track", "TrackingId", "CargoRoute", "Delivery"]
+    },
+    {
+      "name": "ViewTracking",
+      "classes": ["RealtimeCargoTrackingViewAdapter", "RealtimeCargoTrackingService", "LocationViewAdapter", "DomainObjectUtils", "ItineraryTest", "Itinerary", "Unlocode", "Cargo", "JpaCargoRepository", "CargoTest", "TrackingId", "ItineraryCandidateDtoAssembler", "CargoDetails"]
+    },
+    {
+      "name": "ViewCargos",
+      "classes": ["UnLocode", "Location", "CargoRoute", "SampleLocations", "RouteCandidate", "BookingServiceFacade", "DefaultBookingServiceFacade", "Booking", "ListCargo", "Track", "ChangeArrivalDeadline", "ChangeDestination", "ItinerarySelection", "CargoDetails"]
+    },
+    {
+      "name": "BookCargo",
+      "classes": ["ChangeArrivalDeadlineDialog", "ChangeDestinationDialog", "MisdirectedCargoConsumer", "CargoHandledConsumer", "DeliveredCargoConsumer", "ListCargo", "Track", "ChangeArrivalDeadline", "ChangeDestination", "ItinerarySelection", "CargoDetails", "RouteSpecification", "ItineraryTest", "RouteSpecificationTest", "Itinerary"]
+    },
+    {
+      "name": "ChangeCargoDestination",
+      "classes": ["UnLocode", "Location", "CargoRoute", "SampleLocations", "RouteCandidate", "Leg", "CarrierMovement", "RouteSpecification", "ItineraryTest", "RouteSpecificationTest", "Itinerary"]
+    },
+    {
+      "name": "RouteCargo",
+      "classes": ["Coordinates", "CoordinatesFactory", "ItineraryCandidateDtoAssembler", "CargoRouteDtoAssembler", "LocationDtoAssembler", "UnLocode", "Location", "CargoRoute", "SampleLocations", "RouteCandidate", "Leg", "CarrierMovement", "ItinerarySelection", "CargoDetails", "ItinerarySelection"]
+    },
+    {
+      "name": "Create Location",
+      "classes": ["JpaVoyageRepository", "JpaLocationRepository", "VoyageNumber", "SampleVoyages", "Voyage", "Schedule", "UnknownVoyageException"]
+    },
+    {
+      "name": "Create Voyage",
+      "classes": ["AndSpecification", "NotSpecification", "OrSpecification", "UnLocode", "Location", "CargoRoute", "SampleLocations", "RouteCandidate", "Leg", "CarrierMovement"]
+    },
+    {
+      "name": "AddCarrierMovement",
+      "classes": ["MisdirectedCargoConsumer", "CargoHandledConsumer", "DeliveredCargoConsumer", "DefaultCargoInspectionService", "HandlingEventServiceTest", "DefaultHandlingEventService", "EventLogger", "DateConverter", "LoggerProducer", "EventItemWriter", "EventLineParseException", "EventFilesCheckpoint", "EventItemReader", "LineParseExceptionListener", "CargoStatus", "TrackingEvents", "UnknownCargoException", "HandlingEventFactory", "CannotCreateHandlingEventException", "HandlingEventTest", "HandlingActivity", "JpaHandlingEventRepository", "Cargo", "HandlingHistoryTest", "JpaCargoRepository", "HandlingEvent", "CargoTest", "HandlingHistory"]
+    }
+  ]
+}
+```

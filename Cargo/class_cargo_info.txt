@@ -1,0 +1,297 @@
+Class: CargoStatusDtoAssembler
+Package: org.eclipse.cargotracker.interfaces.booking.facade.internal.assembler
+----
+Class: SampleVoyages
+Package: org.eclipse.cargotracker.domain.model.voyage
+----
+Class: CargoDetails
+Package: org.eclipse.cargotracker.interfaces.booking.web
+----
+Class: HandlingEventServiceTest
+Package: org.eclipse.cargotracker.application
+----
+Class: UnknownVoyageException
+Package: org.eclipse.cargotracker.domain.model.handling
+----
+Class: UploadDirectoryScanner
+Package: org.eclipse.cargotracker.interfaces.handling.file
+----
+Class: FileProcessorJobListener
+Package: org.eclipse.cargotracker.interfaces.handling.file
+----
+Class: HandlingEventFactory
+Package: org.eclipse.cargotracker.domain.model.handling
+----
+Class: RealtimeCargoTrackingViewAdapter
+Package: org.eclipse.cargotracker.interfaces.booking.sse
+----
+Class: GraphDao
+Package: org.eclipse.pathfinder.internal
+----
+Class: BookingServiceTest
+Package: org.eclipse.cargotracker.application
+----
+Class: JpaVoyageRepository
+Package: org.eclipse.cargotracker.infrastructure.persistence.jpa
+----
+Class: ItineraryTest
+Package: org.eclipse.cargotracker.domain.model.cargo
+----
+Class: ItineraryCandidateDtoAssembler
+Package: org.eclipse.cargotracker.interfaces.booking.facade.internal.assembler
+----
+Class: CargoStatus
+Package: org.eclipse.cargotracker.interfaces.booking.facade.dto
+----
+Class: DateConverter
+Package: org.eclipse.cargotracker.application.util
+----
+Class: Location
+Package: org.eclipse.cargotracker.domain.model.location
+----
+Class: TransitPath
+Package: org.eclipse.pathfinder.api
+----
+Class: TransitEdge
+Package: org.eclipse.pathfinder.api
+----
+Class: NotSpecification<T>
+Package: org.eclipse.cargotracker.domain.shared
+----
+Class: AndSpecification<T>
+Package: org.eclipse.cargotracker.domain.shared
+----
+Class: DeliveredCargoConsumer
+Package: org.eclipse.cargotracker.infrastructure.messaging.jms
+----
+Class: HandlingReportService
+Package: org.eclipse.cargotracker.interfaces.handling.rest
+----
+Class: CargoLifecycleScenarioTest
+Package: org.eclipse.cargotracker.scenario
+----
+Class: JpaHandlingEventRepository
+Package: org.eclipse.cargotracker.infrastructure.persistence.jpa
+----
+Class: JpaCargoRepository
+Package: org.eclipse.cargotracker.infrastructure.persistence.jpa
+----
+Class: EventFilesCheckpoint
+Package: org.eclipse.cargotracker.interfaces.handling.file
+----
+Class: CargoHandledConsumer
+Package: org.eclipse.cargotracker.infrastructure.messaging.jms
+----
+Class: EventItemWriter
+Package: org.eclipse.cargotracker.interfaces.handling.file
+----
+Class: Location
+Package: org.eclipse.cargotracker.interfaces.booking.facade.dto
+----
+Class: ChangeArrivalDeadline
+Package: org.eclipse.cargotracker.interfaces.booking.web
+----
+Class: EventLogger
+Package: org.eclipse.cargotracker.interfaces.handling.mobile
+----
+Class: Itinerary
+Package: org.eclipse.cargotracker.domain.model.cargo
+----
+Class: HandlingEventRegistrationAttempt
+Package: org.eclipse.cargotracker.interfaces.handling
+----
+Class: JpaLocationRepository
+Package: org.eclipse.cargotracker.infrastructure.persistence.jpa
+----
+Class: DomainObjectUtils
+Package: org.eclipse.cargotracker.domain.shared
+----
+Class: FacesConfiguration
+Package: org.eclipse.cargotracker.interfaces
+----
+Class: CargoTest
+Package: org.eclipse.cargotracker.domain.model.cargo
+----
+Class: TrackingId
+Package: org.eclipse.cargotracker.domain.model.cargo
+----
+Class: ChangeDestination
+Package: org.eclipse.cargotracker.interfaces.booking.web
+----
+Class: ApplicationSettings
+Package: org.eclipse.cargotracker.application.util
+----
+Class: ChangeDestinationDialog
+Package: org.eclipse.cargotracker.interfaces.booking.web
+----
+Class: HandlingEventTest
+Package: org.eclipse.cargotracker.domain.model.handling
+----
+Class: TrackingEventsDtoAssembler
+Package: org.eclipse.cargotracker.interfaces.booking.facade.internal.assembler
+----
+Class: ListCargo
+Package: org.eclipse.cargotracker.interfaces.booking.web
+----
+Class: UnLocode
+Package: org.eclipse.cargotracker.domain.model.location
+----
+Class: SampleDataGenerator
+Package: org.eclipse.cargotracker.application.util
+----
+Class: SampleLocations
+Package: org.eclipse.cargotracker.domain.model.location
+----
+Class: CoordinatesFactory
+Package: org.eclipse.cargotracker.interfaces
+----
+Class: RouteSpecificationTest
+Package: org.eclipse.cargotracker.domain.model.cargo
+----
+Class: UnknownCargoException
+Package: org.eclipse.cargotracker.domain.model.handling
+----
+Class: JmsApplicationEvents
+Package: org.eclipse.cargotracker.infrastructure.messaging.jms
+----
+Class: RealtimeCargoTrackingService
+Package: org.eclipse.cargotracker.interfaces.booking.sse
+----
+Class: HandlingActivity
+Package: org.eclipse.cargotracker.domain.model.cargo
+----
+Class: LineParseExceptionListener
+Package: org.eclipse.cargotracker.interfaces.handling.file
+----
+Class: Coordinates
+Package: org.eclipse.cargotracker.interfaces
+----
+Class: Track
+Package: org.eclipse.cargotracker.interfaces.booking.web
+----
+Class: UnknownLocationException
+Package: org.eclipse.cargotracker.domain.model.handling
+----
+Class: OrSpecification<T>
+Package: org.eclipse.cargotracker.domain.shared
+----
+Class: HandlingEventRegistrationAttemptConsumer
+Package: org.eclipse.cargotracker.infrastructure.messaging.jms
+----
+Class: HandlingHistoryTest
+Package: org.eclipse.cargotracker.domain.model.handling
+----
+Class: RouteSpecification
+Package: org.eclipse.cargotracker.domain.model.cargo
+----
+Class: Track
+Package: org.eclipse.cargotracker.interfaces.tracking.web
+----
+Class: DefaultCargoInspectionService
+Package: org.eclipse.cargotracker.application.internal
+----
+Class: RestConfiguration
+Package: org.eclipse.cargotracker.application.util
+----
+Class: DefaultHandlingEventService
+Package: org.eclipse.cargotracker.application.internal
+----
+Class: GraphTraversalService
+Package: org.eclipse.pathfinder.api
+----
+Class: Leg
+Package: org.eclipse.cargotracker.domain.model.cargo
+----
+Class: LoggerProducer
+Package: org.eclipse.cargotracker.infrastructure.logging
+----
+Class: ExternalRoutingService
+Package: org.eclipse.cargotracker.infrastructure.routing
+----
+Class: EventItemReader
+Package: org.eclipse.cargotracker.interfaces.handling.file
+----
+Class: HandlingEvent
+Package: org.eclipse.cargotracker.domain.model.handling
+----
+Class: HandlingReport
+Package: org.eclipse.cargotracker.interfaces.handling.rest
+----
+Class: TrackingEvents
+Package: org.eclipse.cargotracker.interfaces.booking.facade.dto
+----
+Class: DefaultBookingService
+Package: org.eclipse.cargotracker.application.internal
+----
+Class: CarrierMovement
+Package: org.eclipse.cargotracker.domain.model.voyage
+----
+Class: VoyageNumber
+Package: org.eclipse.cargotracker.domain.model.voyage
+----
+Class: EventLineParseException
+Package: org.eclipse.cargotracker.interfaces.handling.file
+----
+Class: CargoRouteDtoAssembler
+Package: org.eclipse.cargotracker.interfaces.booking.facade.internal.assembler
+----
+Class: Booking
+Package: org.eclipse.cargotracker.interfaces.booking.web
+----
+Class: RejectedRegistrationAttemptsConsumer
+Package: org.eclipse.cargotracker.infrastructure.messaging.jms
+----
+Class: HandlingHistory
+Package: org.eclipse.cargotracker.domain.model.handling
+----
+Class: LocationViewAdapter
+Package: org.eclipse.cargotracker.interfaces.booking.sse
+----
+Class: Leg
+Package: org.eclipse.cargotracker.interfaces.booking.facade.dto
+----
+Class: MisdirectedCargoConsumer
+Package: org.eclipse.cargotracker.infrastructure.messaging.jms
+----
+Class: CargoTrackingViewAdapter
+Package: org.eclipse.cargotracker.interfaces.tracking.web
+----
+Class: CargoRoute
+Package: org.eclipse.cargotracker.interfaces.booking.facade.dto
+----
+Class: RouteCandidate
+Package: org.eclipse.cargotracker.interfaces.booking.facade.dto
+----
+Class: Voyage
+Package: org.eclipse.cargotracker.domain.model.voyage
+----
+Class: LocationDtoAssembler
+Package: org.eclipse.cargotracker.interfaces.booking.facade.internal.assembler
+----
+Class: CannotCreateHandlingEventException
+Package: org.eclipse.cargotracker.domain.model.handling
+----
+Class: ItinerarySelection
+Package: org.eclipse.cargotracker.interfaces.booking.web
+----
+Class: Schedule
+Package: org.eclipse.cargotracker.domain.model.voyage
+----
+Class: ChangeArrivalDeadlineDialog
+Package: org.eclipse.cargotracker.interfaces.booking.web
+----
+Class: Cargo
+Package: org.eclipse.cargotracker.domain.model.cargo
+----
+Class: DefaultBookingServiceFacade
+Package: org.eclipse.cargotracker.interfaces.booking.facade.internal
+----
+Class: BookingServiceTestDataGenerator
+Package: org.eclipse.cargotracker.application
+----
+Class: ExternalRoutingServiceTest
+Package: org.eclipse.cargotracker.infrastructure.routing
+----
+Class: Delivery
+Package: org.eclipse.cargotracker.domain.model.cargo
+----

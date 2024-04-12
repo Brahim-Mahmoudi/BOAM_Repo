@@ -1,0 +1,28 @@
+{
+  "clusters": [
+    {
+      "name": "MakeAnAppointment",
+      "classes": ["Pet", "Specialty", "JdbcPet", "JdbcPetVisitExtractor", "PetType", "PetValidator", "SpringDataPetRepository", "PetRepository"]
+    },
+    {
+      "name": "RecordingAnimalInformations",
+      "classes": ["Pet", "NamedEntity", "Specialty", "JdbcPet", "JdbcPetVisitExtractor", "PetType", "PetValidator", "JdbcPetRowMapper", "SpringDataPetRepository", "PetRepository", "PetTypeFormatterTests", "PetTypeFormatter"]
+    },
+    {
+      "name": "ViewAnimalMedicalInformations",
+      "classes": ["PetType", "Pet", "JdbcVetRepositoryImpl", "SpringDataVetRepository", "JpaVetRepositoryImpl", "VetRepository", "SpringDataPetRepository", "PetRepository", "AbstractClinicServiceTests", "PetTypeFormatterTests", "PetTypeFormatter", "ClinicServiceJpaTests", "ClinicServiceJdbcTests", "ClinicServiceSpringDataJpaTests"]
+    },
+    {
+      "name": "ViewAVeterinariansSchedule",
+      "classes": ["JdbcVetRepositoryImpl", "SpringDataVetRepository", "JpaVetRepositoryImpl", "VetRepository", "AbstractClinicServiceTests", "ClinicServiceJpaTests", "ClinicServiceJdbcTests", "ClinicServiceSpringDataJpaTests"]
+    },
+    {
+      "name": "ManageVeterinarians",
+      "classes": ["Visit", "JdbcVisitRowMapper", "Vet", "Person", "Vets"]
+    },
+    {
+      "name": "ManageUsers",
+      "classes": ["BaseEntity", "Owner", "Visit", "JdbcVisitRowMapper", "Vet", "Person", "Vets", "EntityUtils"]
+    }
+  ]
+}

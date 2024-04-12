@@ -1,0 +1,90 @@
+```json
+{
+  "clusters": [
+    {
+      "name": "GrantPermission",
+      "classes": ["GroupTestCase", "Group", "Role", "GroupRepository"]
+    },
+    {
+      "name": "GenerateForumStats",
+      "classes": ["ForumTestCase", "ForumRepository", "Forum", "ForumStats", "ForumWatch"]
+    },
+    {
+      "name": "RankUser",
+      "classes": ["SearchRepository", "UserRepository", "Post", "User", "Ranking", "SearchResult", "UserSessionListener", "QueryCache", "UserAdminControllerTestCase", "UserServiceTestCase", "UserAdminController", "UserService", "UserControllerTestCase", "UserController", "UserDAOTestCase"]
+    },
+    {
+      "name": "JoinGroup",
+      "classes": ["GroupTestCase", "Group", "Role", "GroupRepository"]
+    },
+    {
+      "name": "CreateAPost",
+      "classes": ["PostFormatters", "Post", "Attachment", "PostDAOTestCase", "ChangePostRuleTestCase", "PostServiceTestCase", "PostRepository", "ChangePostRule", "PostOptions", "PostController", "PostService"]
+    },
+    {
+      "name": "ReplyToAPost",
+      "classes": ["SearchRepository", "Post", "PostReport", "Attachment", "SearchResult", "PostController", "PostService", "PostServiceTestCase", "PostDAOTestCase", "PostFormatters"]
+    },
+    {
+      "name": "CreateASubject",
+      "classes": ["TopicTestCase", "UserSessionTestCase", "TopicRepository", "UserSession", "Topic", "Session", "TopicWatch", "TopicWatchRepository", "RecentTopicsRepository", "PaginatedResult", "TopicPostEventTestCase", "TopicWatchPostEventTestCase", "TopicWatchTopicEventTestCase", "CreateNewTopicRuleTestCase", "TopicControllerTestCase", "TopicServiceTestCase"]
+    },
+    {
+      "name": "ModifyAUserProfile",
+      "classes": ["SearchRepository", "AvatarRepository", "UserRepository", "User", "SearchResult", "Repository", "BanlistRepository", "JDBCLoader", "UserSessionListener", "SpringInterceptor", "SmiliesFormatter", "UserAdminControllerTestCase", "UserServiceTestCase", "UserAdminController", "UserService", "UserControllerTestCase", "UserController", "LostPasswordService", "UserDAOTestCase", "RemoteUserSSOTestCase", "RemoteUserSSO", "MethodSecurityInterceptor", "ControllerSecurityInterceptor"]
+    },
+    {
+      "name": "VoteInAPoll",
+      "classes": ["Poll", "PollVoter", "PollOption", "PollRepository", "RankingRepository", "PollService", "PollServiceTestCase"]
+    },
+    {
+      "name": "CreateAPoll",
+      "classes": ["Poll", "PollVoter", "PollOption", "PollRepository", "PollService", "PollServiceTestCase"]
+    },
+    {
+      "name": "AddPollOption",
+      "classes": ["Poll", "PollOption", "PollRepository"]
+    },
+    {
+      "name": "CreateACategory",
+      "classes": ["CategoryRepository", "Category", "CategoryDAOTestCase", "CategoryServiceTestCase", "CategoryService", "CategoryEventListener", "CategoryAdminController", "CategoryOrderComparator"]
+    },
+    {
+      "name": "CreateAForum",
+      "classes": ["ForumTestCase", "ForumRepository", "Forum", "ForumStats", "ForumWatch", "NewForumGroupPermissionsEventTestCase", "ForumServiceTestCase", "ForumService", "ForumException"]
+    },
+    {
+      "name": "AddAnAvatar",
+      "classes": ["ThemeRepository", "Theme", "Avatar", "AvatarService", "AvatarDAOTestCase", "AvatarServiceTestCase"]
+    },
+    {
+      "name": "ReportAPost",
+      "classes": ["PostReportRepository", "PostRepository", "PostReport", "PostReportDAOTestCase", "PostFormatters"]
+    },
+    {
+      "name": "SendAPrivateMessage",
+      "classes": ["PrivateMessageRepository", "PrivateMessage", "PrivateMessageType", "PrivateMessageDAOTestCase", "PrivateMessageServiceTestCase", "PrivateMessageService", "PrivateMessageSpammer", "PrivateMessageController"]
+    },
+    {
+      "name": "AddABannedWord",
+      "classes": ["BadWord", "BadWordRepository", "BadWordDAOTestCase"]
+    },
+    {
+      "name": "AddUserToGroup",
+      "classes": ["GroupTestCase", "Group", "Role", "GroupRepository", "User", "GroupAdminControllerTestCase", "GroupServiceTestCase", "GroupService"]
+    },
+    {
+      "name": "CreateAPoll",
+      "classes": ["Poll", "PollVoter", "PollOption", "PollRepository", "PollService", "PollServiceTestCase"]
+    },
+    {
+      "name": "FollowAForum",
+      "classes": ["ForumTestCase", "ForumRepository", "Forum", "ForumStats", "ForumWatch", "ForumServiceTestCase", "ForumService"]
+    },
+    {
+      "name": "FollowATopic",
+      "classes": ["TopicTestCase", "UserSessionTestCase", "TopicRepository", "UserSession", "Topic", "Session", "TopicWatch", "TopicWatchRepository", "RecentTopicsRepository", "PaginatedResult"]
+    }
+  ]
+}
+```
