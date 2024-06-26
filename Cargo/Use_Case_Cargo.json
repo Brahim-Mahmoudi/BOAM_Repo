@@ -54,8 +54,8 @@
 				{
 					"characteristic":"Often",
 					"nanoentities":[
-						"HandlingEvent.type",
 						"HandlingEvent.completionTime",
+						"HandlingEvent.type",
 						"HandlingEvent.registrationTime",
 						"HandlingEvent.location",
 						"Delivery.transportStatus"
